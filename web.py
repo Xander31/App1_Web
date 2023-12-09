@@ -27,3 +27,5 @@ st.text_input(label= " ",placeholder="Add new Todo and Hit Enter",
               on_change=add_todo, key="new_todo") #Key = Key of the "dict" st.session_state. To see write: st.session_state in a new line
 #st.session_state
 st.write("Developed by: Al")
+
+#To create requirements.txt ->   pip freeze > requirements.txt
